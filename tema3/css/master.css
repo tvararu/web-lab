@@ -1,0 +1,41 @@
+/* This makes padding a part of the total width and height of every element on the page: http://css-tricks.com/box-sizing/ */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+table td {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  padding: 25px;
+}
+
+/* Give the <thead> of the first and second table a bottom border. */
+table.first > thead,
+table.second > thead {
+  border-bottom: 5px solid black;
+}
+
+/* Give the first cell in every row in a table a right border. */
+table.first tr td:first-child {
+  border-right: 5px solid black;
+}
+
+/* Manually override colspan and rowspan. */
+table.second td[colspan="2"] {
+  width: 400px;
+}
+
+table.second td[rowspan="2"] {
+  height: 200px;
+}
+
+table.third {
+  border: 5px solid black;
+}
+
+table.third td {
+  height: 50px;
+}
