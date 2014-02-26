@@ -1,0 +1,25 @@
+body {
+  /* Serif font families are more pleasant for reading long-form or prose/poetry */
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  /* We set a max-width of 800 pixels so that paragraphs don't stretch for the entire length of a widescreen browser. Generally you want to aim for ~80 characters per line, so tweak your font-sizes and element widths accordingly. Also allows us to center the element horizontally. */
+  max-width: 800px;
+  
+  /* The classic way to center a div horizontally. Tells the .container element to have a margin of 0 pixels on the top and bottom, and to automatically center itself on the left and the right. */
+  margin: 0 auto;
+  
+  /* This adds a padding of 20 pixels to all the sides of the element, so that it looks better on screens that are smaller than 800 pixels. */
+  padding: 20px;
+}
+
+.container video {
+  /* Tell the video to fill up the entire available horizontal width. */
+  width: 100%;
+}
+
+.container figure img {
+  /* Set max-width of 100% so that the <img> doesn't overflow outside of its parent element. */
+  max-width: 100%;
+}

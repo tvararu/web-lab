@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <title>Poezii si Povestiri</title>
+    
+    <!-- Normalize is a CSS reset that makes all browsers render basic elements more consistently: http://necolas.github.io/normalize.css/ -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" type="text/css" media="screen">
+    
+    <!-- The main stylesheet: -->
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen">
+  </head>
+  
+  <body>
+    <!-- It's common practice to wrap the entire content of the <body> element in an un-semantic wrapper class, such as .container, to aid in styling. -->
+    <div class="container">
+      <h1>Lecturi suplimentare</h1>
+      
+      <aside>
+        <!-- The <nav> element is the semantic way to declare a navigation menu. -->
+        <nav>
+          <!-- We'll use a parent <ul> to contain the first level items in the table of contents. Second level items get nested in the exact same manner, by declaring another <ul> within the <li>s. -->
+          <ul>
+            <li>
+              <a href="#poezii">Poezii</a>
+              <ul>
+                <li><a href="#lacramioare">Lacramioare</a></li>
+                <li><a href="#cantec-de-primavara">Cantec de primavara</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#povestiri">Povestiri</a>
+              <ul>
+                <li><a href="#povestea-anotimpului-uitat">Povestea anotimpului uitat</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      
+      <article id="poezii">
+        <!-- Include a video element, with basic on-screen controls. -->
+        <video controls>
+          <source src="https://sites.google.com/site/igleustean/teaching/tehnici-web/AnotimpurileTW.mp4" type="video/mp4">
+        </video>
+        
+        <h2>Poezii</h2>
+        
+        <!-- The id attribute allows you to jump to parts of a page by using anchor tags, among other uses. -->
+        <section id="lacramioare">
+          <h3>Lacramioare</h3>
+          <!-- target="_blank" tells the browser that we want the linked page to open in a new tab or window. -->
+          <h4>de <a href="http://passionaria.ro" target="_blank">Passionaria Stoicescu</a></h4>
+      
+          <p>
+            Cine o fi plans pe-aici?<br>
+            Poate Alba ca zapada<br>
+            cautandu-i pe pitici!<br>
+          </p>
+          <p>
+            Si din ochii ei curati<br>
+            stropii mici au dat o floare<br>
+            pe-o tulpina cu multi frati.<br>
+          </p>
+      
+          <p>
+            Lacramioare- sip in drum,<br>
+            care-mbata Fluturasul<br>
+            zapacindu-l cu parfum.<br>
+          </p>
+      
+          <p>
+            Lacramioare-alb pocal,<br>
+            cupe-n care bea furnica<br>
+            la al Primaverii bal.<br>
+          </p>
+        </section>
+        
+        <section id="cantec-de-primavara">
+          <h3>Cantec de primavara</h3>
+          <h4>de Poezie de <a href="http://en.wikipedia.org/wiki/Ștefan_Octavian_Iosif" target="_blank">St. O. Iosif</a></h4>
+      
+          <p>
+            Vii sa-mi bati iar in fereastra,<br>
+            Tanar soare auriu,<br>
+            Si zapada de pe coasta<br>
+            Fuge ca argintul viu.<br>
+            Salta gurese suvoaie.<br>
+            Spumegate si zglobii.<br>
+            Canta cinteze-n zavoaie<br>
+            Si-n vazduhuri ciocarlii!<br>
+            Ca zapada care piere<br>
+            Dupa veacul iernii greu,<br>
+            Piei si tu de-acum, durere,<br>
+            Iarna sufletului meu!<br>
+            Albe la fereastra, doua<br>
+            Crengi de mar mi-au inflorit:<br>
+            Vino, primavara noua,<br>
+            Vreau sa uit c-am suferit...<br>
+          </p>
+        </section>
+      </article>
+      
+      <article id="povestiri">
+        <h2>Povestiri</h2>
+        
+        <section id="povestea-anotimpului-uitat">
+          <h3>Povestea anotimpului uitat</h3>
+          <h4>de <a href="http://en.wikipedia.org/wiki/Rudyard_Kipling" target="_blank">Rudyard Kipling</a></h4>
+      
+          <p>A fost odata ca niciodata, un imparat ce stapanea tot pamantul si conducea lumea cu bunatate, blandete, darnicie si intelegere. Acel imparat se numea Timpul. Pe atunci, intr-un an exista doar un singur anotimp, in care le intalneai pe toate patru, dupa cum iti era dorinta. Si nu numai pe cele patru pe care le cunoastem acum, ci si multe altele, azi necunoscute noua, nici macar din auzite.</p>
+      
+          <p>Aceste multe stari ale vremii erau toate copiii imparatului Timp. Traiau cu totii in buna intelegere, fiecare cu domeniul lui. Soarele stralucea neobosit, raspandindu-si lumina calduta peste intreaga natura si ii facea pe toti sa fie mereu bine dispusi. Gaseai alaturi, fara sa ti se para nimic neobisnuit in asta, locuri cu copaci in floare si campii acoperite de zapada, locuri cu furtuni de praf si ploi torentiale ca in zilele de arsita si livezi cu fructe parguite.</p>
+      
+          <p>...</p>
+      
+          <p>Copii sunt Cele Patru Anotimpuri. Si de atunci, Primavara ne intampina cu veselie si ne trezeste cu ghiocei la ureche, dupa Iarna grea si lunga. Boarea topeste si goneste zapezile, Inmugurirea desteapta pomii la viata, iar Ploaia Calda dezgheata apele si cheama animalele afara sa se bucure de lumina si caldura. Cand vine Vara: Arsita alearga despletita ca o fecioara pe campi si grabeste plantutele sa creasca, dezmierdandu-le tulpinile verzi si cantandu-le despre fratele ei, Rodnicia. Furtuna ii face pe oamenii sa rada si alteori sa planga, iar Cerul Instelat, in noptile senine, aduce cu el mirosul proaspat al florilor. Roua marunta cuprinde intregul Pamant si improspateaza rasuflarea celor arsi de sete. Toamna e adusa de Printesa Imbelsugare si de Printul Rodnicie, iar sora lor mai mare si mai lenesa, Burnita, ii ajunge din urma. Cu totii se pregatesc sa primeasca alaiul sfarsitului de An. Si in sfarsit, vestitorii necrutatori ai Iernii gonesc pasarile calatoare spre alte tari si le aduc in saniile lor grele pe fetele adormite ale Imparatului Timp, care ingheata aerul cu privirea lor rece de pe alta lume. Ele plutesc deasupra oraselor, muntilor si campurilor si desfac Cerurile cu bratele lor albe, scuturandu-si pletele frumoase si lungi de fulgii usori de nea.</p>
+      
+          <p>Dar stapan peste acea imparatie a ramas pana in zilele noastre, tot Imparatul Timp.</p>
+        </section>
+      </article>
+      
+      <aside>
+        <nav>
+          <ul>
+            <li><img src="http://labtehniciweb.files.wordpress.com/2014/02/primavara-mare.jpg" alt="primavara" width="150px" />Primavara</li>
+            <li><a href="vara.html"><img src="http://labtehniciweb.files.wordpress.com/2014/02/vara-mare.jpg" alt="vara" width="150px" />Vara</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </body>
+</html>
